@@ -10,3 +10,10 @@ a = set('abracadabra')
 b = set('alacazam')
 res = a & b
 print(res)
+
+#Operasi exclusive or pada set menggunakan operator
+a = set('abracadabra')
+b = set('alacazam')
+
+res = a ^ b
+print(res)
